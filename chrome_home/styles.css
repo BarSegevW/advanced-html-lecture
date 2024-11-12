@@ -1,0 +1,68 @@
+/* Basic styling for layout and elements */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .logo {
+    margin-top: 100px;
+  }
+  
+  .search-bar {
+    margin-top: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    outline: none;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #555;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #e8e8e8;
+  }
+  
+  footer {
+    margin-top: auto;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    background-color: #f2f2f2;
+  }
+  
+  footer a {
+    color: #1a73e8;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  

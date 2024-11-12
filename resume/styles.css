@@ -1,0 +1,87 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .profile-img {
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .contact-links {
+    margin-top: 10px;
+  }
+  
+  .contact-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .contact-links img {
+    width: 16px;
+    margin-right: 5px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .summary,
+  .experience,
+  .education {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .summary p,
+  .education p {
+    line-height: 1.6;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
